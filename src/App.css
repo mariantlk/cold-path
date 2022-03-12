@@ -1,0 +1,1178 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+}
+
+.App-header {
+  background-color: rgb(0, 0, 0);
+  color: #000000;
+  font-size: calc(20px + 2vmin);
+  font-family: 'myunderwood';
+
+}
+
+.App-article {
+  background-color: rgb(0, 0, 0);
+  min-height: 80vh;
+  flex-direction: column;
+  align-items: left;
+  font-size: calc(10px + 2vmin);
+  font-family: 'myunderwood';
+  color: beige;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  padding-bottom: 25%;
+
+}
+
+.Front{
+   width: 100%;
+   height: auto;
+
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  left: 2%;
+  font-size: 150%;
+  align-items: center;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(255, 13, 13),
+    0 0 80px rgb(255, 13, 13),
+    0 0 90px rgb(255, 13, 13),
+    0 0 100px rgb(255, 13, 13),
+    0 0 150px rgb(255, 13, 13);
+    margin: 2%;
+
+}
+
+.line1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
+  bottom: 50%;
+  left: 2%;
+  font-size: 40px;
+  align-items: left;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(255, 13, 13),
+    0 0 80px rgb(255, 13, 13),
+    0 0 90px rgb(255, 13, 13),
+    0 0 100px rgb(255, 13, 13),
+    0 0 150px rgb(255, 13, 13);
+    margin: 2%;
+
+}
+
+.line2 {
+  position: absolute;
+  text-align: center;
+  bottom: 40%;
+  left: 2%;
+  font-size: 60px;
+  align-items: center;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(255, 13, 13),
+    0 0 80px rgb(255, 13, 13),
+    0 0 90px rgb(255, 13, 13),
+    0 0 100px rgb(255, 13, 13),
+    0 0 150px rgb(255, 13, 13);
+    margin: 2%;
+
+}
+
+.Answer{
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.Form {
+  min-height: 10vh;
+  text-align: center;
+  font-family: 'myunderwood';
+  align-items: center;
+  background-color: #000;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.Hints {
+  max-width: 100%;
+  height: auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  height: 30vh;
+  padding-right: 0%;
+  color: rgb(218, 208, 219);
+  font-family: 'myunderwood';
+  background-color: #000;
+
+}
+
+button.hintbut {
+  float: none;
+  max-width: 100%;
+  display:inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'myunderwood';
+  border-radius: 35px;
+  padding: 20px 25px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+
+}
+
+button.hintbut:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 
+  0 0 5px #fff,
+  0 0 20px rgb(173, 102, 102),
+  0 0 327px rgb(192, 19, 19),
+  0 0 35px rgb(112, 11, 11);
+
+}
+
+.text{
+ color:  rgb(255, 255, 255);
+
+}
+
+.Data1 {
+  padding-top: 10vh;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font-family: 'myunderwood';
+  align-items: left;
+  font-size: calc(10px + 2vmin);
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.Data2 {
+  padding-top: 10vh;
+  min-height: 10vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  font-family: 'myunderwood';
+  font-size: 50px;
+  font-size: calc(10px + 2vmin);
+  padding-left: 10%; 
+  padding-right: 10%;
+
+}
+
+.Data3 {
+  padding-top: 20vh;
+  min-height: 230vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: 'myunderwood';
+  font-size: 50px;
+  font-size: calc(10px + 2vmin);
+  padding-left: 10%;
+  padding-right: 10%;
+  width: auto;
+  background-repeat: repeat-x;
+
+}
+.Data4 {
+  padding-top: 20vh;
+  min-height: 50vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: 'myunderwood';
+  font-size: 50px;
+  font-size: calc(10px + 2vmin);
+  padding-left: 10%;
+  padding-right: 10%;
+  width: auto;
+  background-repeat: repeat-x;
+
+}
+.Data5 {
+  padding-top: 20vh;
+  min-height: 80vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'myunderwood';
+  font-size: 50px;
+  font-size: calc(10px + 2vmin);
+  padding-left: 10%;
+  padding-right: 10%;
+  width: auto;
+  background-repeat: repeat-x;
+
+}
+
+.Papiros {
+  max-width: 100%;
+  height: auto;
+}
+
+button.take-me-there {
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  font-family: 'myunderwood';
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border-radius: 80px;
+  padding: 10px 40px;
+  box-shadow:
+    0 0 5px #fff,
+    0 0 20px rgb(173, 102, 102),
+    0 0 327px rgb(192, 19, 19),
+    0 0 35px rgb(112, 11, 11);
+    border: none;
+    height: auto;
+    width: auto;
+
+}
+
+.take-me-there:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px #fff,
+    0 0 20px #fff,
+    0 0 35px #fff;
+
+}
+
+.input{
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 10px 90px;
+  text-align: center;
+  width: 15%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.right {
+  float: right;
+  padding: 1%;
+
+}
+
+.left {
+  float: left;
+
+}
+
+.Efimerida{
+  max-width: 80%;
+  height: auto;
+  align-items: center;
+
+}
+
+button.gobutton {
+  background-color: rgb(255, 255, 255);
+  font-family: 'myunderwood';
+  border-radius: 30px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 15px 40px;
+  border: none;
+  text-shadow:
+    0 0 5px rgb(255,13, 13),
+    0 0 10px rgb(255, 13, 13),
+    0 0 20px rgb(255, 13, 13),
+    0 0 40px rgb(255, 13, 13),
+    0 0 80px rgb(255, 13, 13),
+    0 0 90px rgb(255, 13, 13),
+    0 0 100px rgb(255, 13, 13),
+    0 0 150px rgb(255, 13, 13);
+  box-shadow:
+    0 0 5px #fff,
+    0 0 20px #fff,
+    0 0 35px #b61e1e;
+border-color: #ffffff;   
+
+}
+
+.gobutton{
+  text-align: center;
+
+}
+
+button.gobutton:hover {
+  background-color: none;
+  box-shadow: 0 0 5px #fff,
+    0 0 20px #fff,
+    0 0 35px #fff,
+    0 0 50px #fff;
+  border-color: rgb(255, 255, 255);
+
+}
+
+.timerbutton:hover{
+  background-color: none;
+  box-shadow: 0 0 5px #fff,
+    0 0 20px #fff,
+    0 0 35px #fff,
+    0 0 50px #fff;
+  border-color: rgb(255, 255, 255);
+
+}
+
+.About {
+  float: right;
+  font-family: 'myunderwood';
+  margin: 1%;
+  color: rgb(0, 0, 0);
+  font-size: calc(20px + 2vmin);
+
+}
+
+.general {
+  background-color: #000000;
+  text-decoration:none;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(0, 0, 0, 0);
+}
+
+.Rules {
+  font-family: 'myunderwood';
+  color: rgb(255, 255, 255);
+  font-size: calc(50px + 2vmin);
+  background-color: black;
+  min-height: 10vh;
+  text-align: center;
+  padding-top: 5%;
+
+}
+
+.RulesList {
+  font-family: 'myunderwood';
+  min-height: 50vh;
+  color: aliceblue;
+  background-color: #000000;
+  font-size: calc(15px + 2vmin);
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-decoration: none;
+}
+
+.Formlinks{
+  min-height: 35vh;
+  width: 100%;
+  font-family: 'myunderwood';
+  text-align: center;
+  text-decoration: none;
+  font-size: calc(20px + 2vmin);
+  font-size: calc(20px + 2vmin);
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px rgb(255, 13, 13),
+    0 0 40px rgb(255, 13, 13);
+
+}
+
+.href1 {
+  text-align: right;
+  align-items: right;
+  position: absolute;
+  float: right;
+  font-size: calc(20px + 2vmin);
+  color: #ffffff;
+  margin: 2%;
+  left: 80vw;
+  text-decoration: none;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px rgb(255, 13, 13),
+    0 0 40px rgb(255, 13, 13);
+
+}
+
+.href2 {
+  text-align: right;
+  align-items: right;
+  position: absolute;
+  float: right;
+  font-size: calc(20px + 2vmin);
+  color: #ffffff;
+  margin: 2%;
+  left: 88vw;
+  text-decoration: none;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px rgb(255, 13, 13),
+    0 0 40px rgb(255, 13, 13);
+
+}
+
+.buttons {
+  min-height: 50vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.timetitle{
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-size: calc(10px + 2vmin);
+  font-family: 'myunderwood';
+  padding-top:2%;
+  margin-left: 50%;
+  padding-right: 2%;
+  
+}
+.footer{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 1%;
+  font-family: 'myunderwood';
+  background-color: #000000;
+
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  font-family: 'myunderwood';
+  font-size: calc(30px + 2vmin);
+  padding-top: 2%;
+  padding-left: 2%;
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(255, 13, 13),
+    0 0 80px rgb(255, 13, 13),
+    0 0 90px rgb(255, 13, 13),
+    0 0 100px rgb(255, 13, 13),
+    0 0 150px rgb(255, 13, 13);
+
+}
+
+.c0{
+  position: static;
+  width: 405px;
+  height: 66px;
+  background: none;
+  float: left;  
+  padding-right: 10%;
+  color: #fff;
+
+}
+
+.card0{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card0:hover{
+  transform: rotateY(180deg);
+
+}
+.front0{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: rgb(255, 255, 255);
+
+}
+
+.back0{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+  font-family: 'myunderwood';
+  
+}
+
+.c1{
+  position: static;
+  width: 271px;
+  height: 179px;
+  background: none;
+  padding-right: 10%;
+
+}
+
+.card1{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card1:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front1{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #3a9eba;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.c2{
+  position: static;
+  width: 271px;
+  height: 179px;
+  background: none;
+  float: left;
+
+}
+
+.card2{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card2:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front2{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #3a9eba;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.c3{
+  position: static;
+  width: 243px;
+  height: 223px;
+  background: none;
+  float: left;
+  padding-right: 10%;
+
+}
+
+.card3{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.card3:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front3{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+
+.back3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #3a9eba;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+
+.c4{
+  padding-top: 80%;
+  position: static;
+  width: 271px;
+  height: 179px;
+  background: none;
+  float: left;
+  padding-right: 10%;
+
+}
+
+.card4{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card4:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front4{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #3a9eba;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.c5{
+  padding-top: 80%;
+  position: static;
+  width: 221px;
+  height: 203px;
+  background: none;
+  padding-right: 10%;
+  float: left;
+
+}
+
+.card5{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card5:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front5{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ca7c4e;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+.c6{
+  padding-top: 80%;
+  position: static;
+  width: 271px;
+  height: 179px;
+  background: none;
+  float: left;
+  padding-right: 10%;
+
+}
+
+.card6{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card6:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front6{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back6{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #ca7c4e;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+
+
+.c7{
+  padding-top: 0%;
+  width: 243px;
+  height: 223px;
+  background: none;
+  float: left;
+
+}
+
+.card7{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card7:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front7{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back7{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ca7c4e;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.c8{
+  padding-top: 0%;
+  position: static;
+  width: 176px;
+  height: 269px;
+  background: none;
+  float: left;
+
+}
+.card8{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+.card8:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front8{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back8{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #570808;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+.c9{
+  width: 269px;
+  height: 179px;
+  background: none;
+  float: left;
+
+}
+
+.card9{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  
+}
+
+.card9:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front9{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+
+.back9{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #570808;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.c10{
+  padding-top: 0%;
+  width: 243px;
+  height: 223px;
+  background: none;
+  float: left;
+
+}
+
+
+.card10{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+
+.card10:hover{
+  transform: rotateY(180deg);
+
+}
+
+.front10{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+.back10{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ca7c4e;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+
+.card11{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+.c11{
+  position: static;
+  width: 185px;
+  height: 263px;
+  background: none;
+  float: left;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 5%;
+  
+}
+
+.card11:hover{
+  transform: rotateY(180deg);
+}
+.front11{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+.back11{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #570808;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+.c12{
+  position: static;
+  width: 347px;
+  height: 192px;
+  background: none;
+  float: left;  
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 3%;
+  
+}
+.card12:hover{
+  transform: rotateY(180deg);
+}
+.card12{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+.front12{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background: #000000;
+  color: #000;
+
+}
+
+
+.back12{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #570808;
+  color: #333;
+  transform: rotateY(180deg);
+
+}
+
+
+.Hidden{
+  font-family: 'myunderwood';
+  border-radius: 30px;
+  font-size: 20px;
+  color: #000000;
+  align-items: center;
+  background-color: #000000;
+  border: none;
+
+}
+
+.hiddenbutton{
+  background-color: #000;
+  color: #000;
+  border: none;
+
+}
+
+.hhh{
+  color: #a31e1e;
+}
+
+.notfound{
+  background-color: #000000;
+  min-height: 100vh;
+  color: #fafafa;
+  font-family: 'myunderwood';
+  font-size: calc(20px + 2vmin);
+  text-align: center;
+  padding-top: 20%;
+  padding-right: 10%;
+  padding-left: 10%;
+
+}
+
+.Diskoi{
+  max-width: 100%;
+  height: auto;
+}
+
+.Timers{
+  background-color: #000000;
+  min-height: 100vh;
+  color: #fafafa;
+  font-family: 'myunderwood';
+  font-size: calc(20px + 2vmin);
+  text-align: center;
+
+}
+
+.timerbutton {
+  font-family: 'myunderwood';
+  border-radius: 30px;
+  font-size: 20px;
+  color: #b61e1e;
+  align-items: center;
+  padding: 15px 30px;
+  border: none;
+  margin: 5%;
+  text-shadow:
+    0 0 5px rgb(255, 13, 13),
+    0 0 10px rgb(255, 13, 13),
+    0 0 20px rgb(255, 13, 13),
+    0 0 40px rgb(255, 13, 13),
+    0 0 80px rgb(255, 13, 13),
+    0 0 90px rgb(255, 13, 13),
+    0 0 100px rgb(255, 13, 13),
+    0 0 150px rgb(255, 13, 13);
+  box-shadow:
+    0 0 5px #fff,
+    0 0 20px #fff,
+    0 0 35px #b61e1e;
+border-color: #ffffff;    
+
+}
+
+.container {  
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr;  
+  grid-template-rows: 50px 50px;  
+  max-width: 90%;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+}
