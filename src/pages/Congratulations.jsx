@@ -47,7 +47,7 @@ class Congratulations extends React.Component {
           <p>You managed to come back and save Berlin! </p>
           <p>Please complete the forms below.</p>
           <div className="Formlinks">
-            <a href="http://form-timer.com/start/a448376b" target="_blank" rel="noopener noreferrer">After Test  &nbsp;</a>
+            <a href="http://form-timer.com/start/a448376b" target="_blank" rel="noopener noreferrer">Post Test  &nbsp;</a>
             <a href="https://docs.google.com/forms/d/1HB83g84MuQ9iYFQHd091a8UCShFxoRGRI43enNx5I-s/edit" target="_blank" rel="noopener noreferrer"> Game-Analysis  &nbsp;</a>
             </div>
         </div> 
